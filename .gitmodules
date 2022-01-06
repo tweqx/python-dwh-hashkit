@@ -1,0 +1,3 @@
+[submodule "c_ext/dwh_hashkit"]
+	path = c_ext/dwh_hashkit
+	url = https://github.com/tweqx/dwh-hashkit
