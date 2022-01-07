@@ -18,7 +18,7 @@ This module is the Python port of the C library 'dwh_hashkit'. The 18 512-bit ha
 
 """
 
-import dwh_hashkit_c
+from . import dwh_hashkit_c
 
 _algorithms_names = ['sha512', 'blake2b', 'streebog', 'sha3', 'fnv0', 'fnv1', 'fnv1a', 'grostl', 'md6', 'jh', 'blake512', 'lsh', 'skein', 'keccak3', 'cubehash', 'whirlpool', 'whirlpool0', 'whirlpoolT']
 
